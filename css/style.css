@@ -1,0 +1,276 @@
+html, body {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0px;
+   
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.header {
+    min-height: 400px;
+    background-image: url(../img/World_Italy_Italy_flag_007618_.jpg);
+    filter: grayscale(0.);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-title {
+    font-size: 56px;
+    margin-bottom: 30px;
+    font-family: 'Merriweather', serif;
+    margin-top: -50px;
+}
+
+.header-slogan {
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.header-arrow {
+    font-size: 48px;
+    position: absolute;
+    bottom: 50px;
+    padding-left: 50%;
+
+}
+
+
+a {
+    transition: 0.5s ease-out;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* ..........................PORTFOLIO................................. */ 
+
+ .container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+ .row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    width: 360px;
+    margin-right: 30px;
+    float: left;
+}
+
+.column:last-child {
+    margin-right: 0px;
+}
+
+.portfolio .portfolio-title {
+    font-family: 'Merriweather', serif;
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.portfolio .image {
+    margin-bottom: 17px;
+}
+
+.portfolio .image img{
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio .image img:hover{
+    transition: 0.5s ease;
+    transform: rotate(5deg) scaleX(1.1);
+    
+    
+}
+
+
+.portfolio .title {
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.portfolio a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid white;
+}
+
+.portfolio a:hover {
+    color: #0052c2;
+    border-color: rgba(0, 82, 194, 0.3)
+}
+
+.portfolio .text p{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+
+/*..........................SINGLE PAGE............................*/
+
+.single-page {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.single-page img{
+    margin-bottom: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+.button-back {
+    font-weight: bold;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    padding: 8px 23px;
+    margin-bottom: 13px;
+    background-color:  grey;
+    margin-right: 360px;
+}
+
+.button-back:hover {
+    color: #FFE400;
+    background-color: lightslategrey;
+}
+/*.........................FOOTER.......................................*/
+
+.footer {
+    background-color: #061634;
+    color: #6479a2;
+    padding-top: 90px;
+    padding-bottom: 190px;
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+p.name {
+    font-size: 28px;
+    margin-bottom: 10px;
+    line-height: normal;
+    font-family: 'Merriweather', serif;
+}
+
+p.footer-social {
+    color: white;
+}
+
+p.footer-social-icons {
+    color: white;
+    font-size: 32px;
+}
+
+p.footer-social-icons a {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+p.footer-social-icons a:last-child  {
+    margin-right: 0px;
+}
+
+p.footer-social-icons a:hover {
+    color: #FFE400;
+}
+
+.button {
+    font-weight: bold;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    padding: 8px 23px;
+    margin-bottom: 13px;
+}
+
+.button:hover {
+    color: #061634;
+    background-color: white;
+}
+
+
+/*..............................MEDIA...................................*/
+
+@media (max-width: 1160px) {
+    .container {
+        width: 100%;
+    }
+    
+    .column {
+        margin: 0px 0px 30px 0px;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+    
+    
+    .header {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .header-title {
+        font-size: 38px;
+        line-height: 48px;
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+    
+    .header-slogan {
+    font-size: 28px;
+    line-height: 42px;
+    }
+    
+    .portfolio {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    
+     .portfolio-title {
+    font-size: 36px;
+    }
+    
+    .footer {
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+   
+}
